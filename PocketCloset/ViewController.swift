@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,CLLocationManagerDelegate {
     
     var color = UIColor(red: (5/255.0), green: (165/255.0), blue: (248/255.0), alpha: 100)
 

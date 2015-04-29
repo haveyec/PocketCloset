@@ -16,6 +16,8 @@
 		7737E2B819EEFA3700B977D7 /* launch_name.png in Resources */ = {isa = PBXBuildFile; fileRef = 7737E2B719EEFA3700B977D7 /* launch_name.png */; };
 		7758AAA91ADD48FF00F1BEAA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7758AAA81ADD48FF00F1BEAA /* Menu.swift */; };
 		7758AAAB1ADD4A7400F1BEAA /* MenuClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7758AAAA1ADD4A7400F1BEAA /* MenuClass.swift */; };
+		77B70C201AEFCE9500E6FB11 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B70C1F1AEFCE9500E6FB11 /* CoreLocation.framework */; };
+		77B70C221AF001AF00E6FB11 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B70C211AF001AF00E6FB11 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		7737E2B719EEFA3700B977D7 /* launch_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_name.png; sourceTree = "<group>"; };
 		7758AAA81ADD48FF00F1BEAA /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		7758AAAA1ADD4A7400F1BEAA /* MenuClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuClass.swift; sourceTree = "<group>"; };
+		77B70C1F1AEFCE9500E6FB11 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		77B70C211AF001AF00E6FB11 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B70C201AEFCE9500E6FB11 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 		7737E28919EEF72300B977D7 = {
 			isa = PBXGroup;
 			children = (
+				77B70C1F1AEFCE9500E6FB11 /* CoreLocation.framework */,
 				7737E29419EEF72300B977D7 /* PocketCloset */,
 				7737E2AA19EEF72300B977D7 /* PocketClosetTests */,
 				7737E29319EEF72300B977D7 /* Products */,
@@ -89,6 +95,7 @@
 				7758AAA81ADD48FF00F1BEAA /* Menu.swift */,
 				7758AAAA1ADD4A7400F1BEAA /* MenuClass.swift */,
 				7737E29B19EEF72300B977D7 /* Main.storyboard */,
+				77B70C211AF001AF00E6FB11 /* Weather.swift */,
 				7737E29E19EEF72300B977D7 /* Images.xcassets */,
 				7737E2A019EEF72300B977D7 /* LaunchScreen.xib */,
 				7737E29519EEF72300B977D7 /* Supporting Files */,
@@ -170,6 +177,7 @@
 				TargetAttributes = {
 					7737E29119EEF72300B977D7 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 897QSY45XD;
 					};
 					7737E2A619EEF72300B977D7 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -226,6 +234,7 @@
 				7758AAAB1ADD4A7400F1BEAA /* MenuClass.swift in Sources */,
 				7737E29A19EEF72300B977D7 /* ViewController.swift in Sources */,
 				7737E29819EEF72300B977D7 /* AppDelegate.swift in Sources */,
+				77B70C221AF001AF00E6FB11 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PocketCloset/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PocketCloset/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
